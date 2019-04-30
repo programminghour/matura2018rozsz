@@ -74,13 +74,13 @@ int main()
         char firstletter='Z';
         char lastletter='A';
 
-        for(int j=0;j<tab[i].length();j++)
+        for(int j=0;j<testtab[i].length();j++)
         {
-            firstletter=min(firstletter,tab[i][j]);
-            lastletter=max(lastletter,tab[i][j]);
+            firstletter=min(firstletter,testtab[i][j]);
+            lastletter=max(lastletter,testtab[i][j]);
         }
         if(lastletter-firstletter<11)
-            cout<<tab[i]<<'\n';
+            cout<<testtab[i]<<'\n';
 
     }
 
